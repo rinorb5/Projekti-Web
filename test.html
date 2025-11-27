@@ -28,5 +28,19 @@ function llogaritShumen() {
 }
 </script>
 
+<button onclick="kontrolloNumrin()">Kontrollo numrin</button>
+
+<script>
+function kontrolloNumrin() {
+    var numri = Number(prompt("Shkruaj një numër:"));
+
+    if (numri % 2 === 0) {
+        alert("Numri është çift!");
+    } else {
+        alert("Numri është tek!");
+    }
+}
+</script>
+
 </body>
 </html>
